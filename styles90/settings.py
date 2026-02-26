@@ -128,3 +128,13 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # React dev server
     "https://90plusstyles.vercel.app",  # React production
 ]
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://styles90-production.up.railway.app",
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://styles90-production.up.railway.app",
+    "http://localhost:5173",  # React dev server
+    "https://90plusstyles.vercel.app",  # React production
+    ]
